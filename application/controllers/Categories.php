@@ -22,7 +22,8 @@
 			} else {
 				$this->category_model->create_category();
 				// Set message
-				$this->session->set_flashdata('category_created', 'Your category has been created');
+				$this->session->set_flashdata('category_created', 'Your category has been created.');
+				
 				redirect('categories');
 			}
 		}
