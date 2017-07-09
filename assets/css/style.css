@@ -1,3 +1,7 @@
+.html{
+	min-height:100%;
+}
+
 .post-date{
 	background:#f4f4f4;
 	padding:4px;
