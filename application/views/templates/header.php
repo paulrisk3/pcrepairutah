@@ -5,7 +5,7 @@
 		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
 		<script src="http://cdn.ckeditor.com/4.7.1/standard/ckeditor.js"></script>
 	</head>
-	<body>
+	<body style="margin-bottom:50px">
 	<nav class="navbar navbar-default">
 		<div class="container">
 			<div class="navbar-header">
