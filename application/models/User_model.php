@@ -14,6 +14,21 @@
 			return $this->db->insert('users', $data);
 		}
 
+		//Log in user
+		public function login($username, $password){
+			//Validate login info
+			$this->db->where('username', $username);
+			$this->db->where('password', $password);
+
+			$result = $this->db->get('users');
+
+			if($result->num_rows() === 1){
+				return $result->row(0)->id;
+			} else {
+				return false;
+			}
+		}
+
 		//check if the username is already in the database
 		public function check_username_exists($username){
 			$query = $this->db->get_where('users', array('username' => $username));
