@@ -1,2 +1,2 @@
 <h2><?= $title ?></h2>
-<p>This is PC Repair Utah v1.0</p>
+<p>I study Information Technology at Brigham Young Univeristy. I have worked for campus IT as a computer support technician and web app developer. PC building, repairing, and upgrading are my main hobbies.</p>
