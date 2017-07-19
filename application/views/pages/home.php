@@ -4,14 +4,14 @@
 		<title>PC Repair Utah</title>
 		<link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
 		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
-	<link rel="manifest" href="assets/favicons/manifest.json">
-	<link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href="assets/favicons/favicon.ico">
-	<meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
-	<meta name="theme-color" content="#ffffff">
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+		<link rel="manifest" href="assets/favicons/manifest.json">
+		<link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="assets/favicons/favicon.ico">
+		<meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="google-site-verification" content="4fvtTTFBpgDqvDVVEBOOJcWko2F8dyCn0MWUfgSdmOU" />
         <meta http-equiv="content-language" content="en" />
@@ -21,16 +21,17 @@
 	<nav class="navbar navbar-default">
 		<div class="container">
 			<div class="navbar-header">
-				<a href="<?php echo base_url(); ?>"><img src="assets/images/logo.png" style="height:75px"></a>
+				<a href="<?php echo base_url(); ?>"><img src="assets/images/logo.png" style="height:70px"></a>
 				<a href="<?php echo base_url(); ?>"><img src="assets/images/text.png" hspace="10" style="height:40px"></a>
 			</div>
 			<div id="navbar">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="<?php echo base_url(); ?>">Home</a></li>
-					<li><a href="<?php echo base_url(); ?>repair">Repair</a></li>
-					<li><a href="<?php echo base_url(); ?>newpc">New PC's</a></li>
+					<li><a style="font-size:24px" href="<?php echo base_url(); ?>">Home</a></li>
+					<li><a style="font-size:24px" href="<?php echo base_url(); ?>repair">Repair</a></li>
+					<li><a style="font-size:24px" href="<?php echo base_url(); ?>upgrades">Upgrades</a></li>
+					<li><a style="font-size:24px" href="<?php echo base_url(); ?>newpc">Computers</a></li>
 					<!-- <li><a href="<?php echo base_url(); ?>about">About</a></li> -->
-					<li><a href="<?php echo base_url(); ?>posts">Blog</a></li>
+					<li><a style="font-size:24px" href="<?php echo base_url(); ?>posts">Blog</a></li>
 					<!-- <li><a href="<?php echo base_url(); ?>categories">Categories</a></li> -->
 				</ul>
 				<ul class="nav navbar-nav">
@@ -86,7 +87,7 @@
 
 <img src="assets\images\PCRepair.PNG" alt="PC Repait Utah flyer" style="width:28%; float:left; padding:5px">
 
-<h3>Welcome to PC Repair Utah!</h3>
+<h2>Welcome to PC Repair Utah!</h2>
 <p>I build, fix, and upgrade personal computers and laptops.</p>
 <p>Got a computer that needs fixing? Looking for a new computer? Email me!</p>
 <p>pcrepairutah@gmail.com</p>

@@ -17,17 +17,18 @@
 	<nav class="navbar navbar-default">
 		<div class="container">
 			<div class="navbar-header">
-				<a href="<?php echo base_url(); ?>"><img src="assets/images/logo.png" style="height:75px"></a>
+				<a href="<?php echo base_url(); ?>"><img src="assets/images/logo.png" style="height:70px"></a>
 
 				<a href="<?php echo base_url(); ?>"><img src="assets/images/text.png" hspace="10" style="height:40px"></a>
 			</div>
 			<div id="navbar">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="<?php echo base_url(); ?>">Home</a></li>
-					<li><a href="<?php echo base_url(); ?>repair">Repair</a></li>
-					<li><a href="<?php echo base_url(); ?>newpc">New PC's</a></li>
+					<li><a style="font-size:24px" href="<?php echo base_url(); ?>">Home</a></li>
+					<li><a style="font-size:24px" href="<?php echo base_url(); ?>repair">Repair</a></li>
+					<li><a style="font-size:24px" href="<?php echo base_url(); ?>upgrades">Upgrades</a></li>
+					<li><a style="font-size:24px" href="<?php echo base_url(); ?>newpc">Computers</a></li>
 					<!-- <li><a href="<?php echo base_url(); ?>about">About</a></li> -->
-					<li><a href="<?php echo base_url(); ?>posts">Blog</a></li>
+					<li><a style="font-size:24px" href="<?php echo base_url(); ?>posts">Blog</a></li>
 					<!-- <li><a href="<?php echo base_url(); ?>categories">Categories</a></li> -->
 				</ul>
 				<ul class="nav navbar-nav">
