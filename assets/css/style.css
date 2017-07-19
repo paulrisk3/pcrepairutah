@@ -1,9 +1,8 @@
 @font-face{
 	font-family:'ethnocentric';
-	src:url('assets/fonts/ethnocentric/ethnocentric_rg.ttf');
-	src:url('assets/fonts/ethnocentric/ethnocentric_rg.ttf') format('truetype');
-	src:url('assets/fonts/ethnocentric/ethnocentric_rg-webfont.woff') format('woff');
-}
+	src:url('https://www.pcrepairutah.com/assets/fonts/ethnocentric/ethnocentric_rg.ttf');
+	src:url('https://www.pcrepairutah.com/assets/fonts/ethnocentric/ethnocentric_rg.ttf') format('truetype');
+	src:url('https://www.pcrepairutah.com/assets/fonts/ethnocentric/ethnocentric_rg-webfont.woff') format('woff');
 
 h2{
 	font-size:38px;
