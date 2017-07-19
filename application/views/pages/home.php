@@ -4,14 +4,14 @@
 		<title>PC Repair Utah</title>
 		<link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
 		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
-		<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-		<link rel="manifest" href="assets/favicon/manifest.json">
-		<link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
-		<link rel="shortcut icon" href="assets/favicon/favicon.ico">
-		<meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
-		<meta name="theme-color" content="#ffffff">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+	<link rel="manifest" href="assets/favicons/manifest.json">
+	<link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="assets/favicons/favicon.ico">
+	<meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="google-site-verification" content="4fvtTTFBpgDqvDVVEBOOJcWko2F8dyCn0MWUfgSdmOU" />
         <meta http-equiv="content-language" content="en" />

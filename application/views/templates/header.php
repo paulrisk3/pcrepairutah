@@ -3,6 +3,14 @@
 		<title>PC Repair Utah</title>
 		<link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
 		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+		<link rel="manifest" href="assets/favicons/manifest.json">
+		<link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="assets/favicons/favicon.ico">
+		<meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
 		<script src="http://cdn.ckeditor.com/4.7.1/standard/ckeditor.js"></script>
 	</head>
 	<body style="margin-bottom:50px">
