@@ -9,7 +9,9 @@
 	<nav class="navbar navbar-default">
 		<div class="container">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="<?php echo base_url(); ?>">PC Repair Utah</a>
+				<a href="<?php echo base_url(); ?>"><img src="assets/images/logo.png" style="height:75px"></a>
+
+				<a href="<?php echo base_url(); ?>"><img src="assets/images/text.png" hspace="10" style="height:40px"></a>
 			</div>
 			<div id="navbar">
 				<ul class="nav navbar-nav navbar-right">
