@@ -15,6 +15,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="google-site-verification" content="4fvtTTFBpgDqvDVVEBOOJcWko2F8dyCn0MWUfgSdmOU" />
         <meta http-equiv="content-language" content="en" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="http://cdn.ckeditor.com/4.7.1/standard/ckeditor.js"></script>
 	</head>
 	<body style="margin-bottom:50px">
@@ -85,7 +87,36 @@
 		<?php endif; ?>
 
 
-<img src="assets\images\PCRepair.PNG" alt="PC Repait Utah flyer" style="width:28%; float:left; padding:5px">
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="assets/images/perf_boost.PNG" alt="Performance Boost" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="assets/images/back_to_school.PNG" alt="Back to School" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
 
 <h2>Welcome to PC Repair Utah!</h2>
 <p>I build, fix, and upgrade personal computers and laptops.</p>
