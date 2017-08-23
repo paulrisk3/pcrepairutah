@@ -86,39 +86,91 @@
 			<?php echo '<p class="alert alert-success">'.$this->session->flashdata('user_loggedout').'</p>'; ?>
 		<?php endif; ?>
 
+	<div class="container-fluid">
+	  <div id="myCarousel" class="carousel slide row" data-ride="carousel" data-interval="6500">
+	    <!-- Indicators -->
+	    <ol class="carousel-indicators">
+	      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	      <li data-target="#myCarousel" data-slide-to="1"></li>
+	    </ol>
 
-<div class="container">
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-    </ol>
+	    <!-- Wrapper for slides -->
+	    <div class="carousel-inner">
+	      <div class="item active">
+	        <img src="assets/images/perf_boost.PNG" alt="Performance Boost" style="width:100%;">
+	      </div>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="assets/images/perf_boost.PNG" alt="Performance Boost" style="width:100%;">
-      </div>
+	      <div class="item">
+	        <img src="assets/images/back_to_school.PNG" alt="Back to School" style="width:100%;">
+	      </div>
+	    </div>
 
-      <div class="item">
-        <img src="assets/images/back_to_school.PNG" alt="Back to School" style="width:100%;">
-      </div>
-    </div>
+	    <!-- Left and right controls -->
+	    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+	      <span class="glyphicon glyphicon-chevron-left"></span>
+	      <span class="sr-only">Previous</span>
+	    </a>
+	    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+	      <span class="glyphicon glyphicon-chevron-right"></span>
+	      <span class="sr-only">Next</span>
+	    </a>
+	  </div>
+	</div>
+	
+	<h2>Welcome to PC Repair Utah!</h2>
+	<h3>Looking for laptop or desktop repair? Need a new PC?</h3>
+	<h3>You've come to the right place.</h3>
+	<h3>Send me an email at <a href="mailto:pcrepairutah@gmail.com">pcrepairutah@gmail.com</a> to get started!</h3>
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
+
+	</br>
+<!--
+	<div style="text-align:center; padding-top:10px; padding-bottom:20px; background-color: #032b3a">
+		<h2 style="color:white; padding-bottom:10px">Welcome to PC Repair Utah!</h2>
+	    <button class="msgBtn" onClick="return false;" >Looking for a new PC or laptop?</button>
+	    <button class="msgBtn" onClick="return false;">Need a repair or a tune-up?</button>
+	    <button class="msgBtn">Want a hardware upgrade?</button>
+	</div>
+
+</br>
+
+<div style="border-style:solid">
+	<h2 style="text-align:center">Have a question?</h2>
+	<form class="form-horizontal" role="form" method="post" action="index.php">
+		<div class="form-group">
+			<label for="name" class="col-sm-2 control-label">Name</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="email" class="col-sm-2 control-label">Email</label>
+			<div class="col-sm-10">
+				<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="message" class="col-sm-2 control-label">Message</label>
+			<div class="col-sm-10">
+				<textarea class="form-control" rows="4" name="message"></textarea>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-sm-10 col-sm-offset-2">
+				<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-sm-10 col-sm-offset-2">
+				<! Will be used to display an alert to the user>
+			</div>
+		</div>
+	</form>
 </div>
-
-<h2>Welcome to PC Repair Utah!</h2>
-<p>I build, fix, and upgrade personal computers and laptops.</p>
-<p>Got a computer that needs fixing? Looking for a new computer? Email me!</p>
-<p>pcrepairutah@gmail.com</p>
+-->
