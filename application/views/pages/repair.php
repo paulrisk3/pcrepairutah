@@ -1,11 +1,13 @@
+<img src="assets/images/back_to_school.PNG" alt="Back to School" style="width:100%;">
+
 <h2>Computer need fixing?</h2>
 <div>
 	<h4>
 		<ul>
-			<li>Do you just want it to run faster?</li>
-			<li>Does it not boot up?</li>
+			<li>Is it running slow? Get a <a href="<?php echo base_url(); ?>boost">Performance Boost!</a></li>
+			<li>Is your data secure if your computer crashses? Let me professionally back up your data!</a></li>
+			<li>Are you worried you may have a virus? I'll find and remove it!</li>
 			<li>Constant Blue Screen of Death?</li>
-			<li>Are you worried you may have a virus?</li>
 			<li>Is it making a strange noise?</li>
 		</ul>
 	</h4>

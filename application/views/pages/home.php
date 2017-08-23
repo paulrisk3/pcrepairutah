@@ -1,4 +1,3 @@
-<!-- <h2><?= $title ?></h2> -->
 <html>
 	<head>
 		<title>PC Repair Utah</title>
@@ -97,11 +96,11 @@
 	    <!-- Wrapper for slides -->
 	    <div class="carousel-inner">
 	      <div class="item active">
-	        <img src="assets/images/perf_boost.PNG" alt="Performance Boost" style="width:100%;">
+	        <a href="<?php echo base_url(); ?>boost"><img src="assets/images/perf_boost.PNG" alt="Performance Boost" style="width:100%;"></a>
 	      </div>
 
 	      <div class="item">
-	        <img src="assets/images/back_to_school.PNG" alt="Back to School" style="width:100%;">
+	        <a href="<?php echo base_url(); ?>repair"><img src="assets/images/back_to_school.PNG" alt="Back to School" style="width:100%;"></a>
 	      </div>
 	    </div>
 
@@ -117,22 +116,22 @@
 	  </div>
 	</div>
 	
-	<h2>Welcome to PC Repair Utah!</h2>
+	<!-- <h2>Welcome to PC Repair Utah!</h2>
 	<h3>Looking for laptop or desktop repair? Need a new PC?</h3>
 	<h3>You've come to the right place.</h3>
-	<h3>Send me an email at <a href="mailto:pcrepairutah@gmail.com">pcrepairutah@gmail.com</a> to get started!</h3>
+	<h3>Send me an email at <a href="mailto:pcrepairutah@gmail.com">pcrepairutah@gmail.com</a> to get started!</h3> -->
 
 
 	</br>
-<!--
+
 	<div style="text-align:center; padding-top:10px; padding-bottom:20px; background-color: #032b3a">
 		<h2 style="color:white; padding-bottom:10px">Welcome to PC Repair Utah!</h2>
-	    <button class="msgBtn" onClick="return false;" >Looking for a new PC or laptop?</button>
-	    <button class="msgBtn" onClick="return false;">Need a repair or a tune-up?</button>
-	    <button class="msgBtn">Want a hardware upgrade?</button>
+	    <a href="<?php echo base_url(); ?>newpc"><button class="msgBtn">Looking for a new PC or laptop?</button></a>
+	    <a href="<?php echo base_url(); ?>repair"><button class="msgBtn">Need a repair or a tune-up?</button></a>
+	    <a href="<?php echo base_url(); ?>upgrades"><button class="msgBtn">Want a hardware upgrade?</button></a>
 	</div>
 
-</br>
+<!-- </br>
 
 <div style="border-style:solid">
 	<h2 style="text-align:center">Have a question?</h2>
@@ -172,5 +171,4 @@
 			</div>
 		</div>
 	</form>
-</div>
--->
+</div> -->
