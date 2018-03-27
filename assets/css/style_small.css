@@ -20,6 +20,10 @@ hr {
     border-width: 2px;
 }
 
+p, li{
+    font-size:20px;
+}
+
 .html{
 	min-height:100%;
 }
@@ -38,14 +42,23 @@ hr {
 .msgbtn{
 	background-color: white;
     border: none;
-    color: #ba0000;
+    color: #D2262D;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
     display: block;
+    border-radius: 6px;
     font-size: 28px;
     margin: 8px auto;
     cursor: pointer;
     width: 95%;
-    height: 15%;
+    height: 19%;
+}
+
+#logo{
+    height:45px;
+}
+
+#logo_text{
+    height:30px;
 }

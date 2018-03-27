@@ -1,8 +1,8 @@
 @font-face{
 	font-family:'ethnocentric';
-	src:url('https://www.pcrepairutah.com/assets/fonts/ethnocentric/ethnocentric_rg.ttf');
-	src:url('https://www.pcrepairutah.com/assets/fonts/ethnocentric/ethnocentric_rg.ttf') format('truetype');
-	src:url('https://www.pcrepairutah.com/assets/fonts/ethnocentric/ethnocentric_rg-webfont.woff') format('woff');
+	src:url('http://localhost/pcrepairutah/assets/fonts/ethnocentric/ethnocentric_rg.ttf');
+	src:url('http://localhost/pcrepairutah/assets/fonts/ethnocentric/ethnocentric_rg.ttf') format('truetype');
+	src:url('http://localhost/pcrepairutah/assets/fonts/ethnocentric/ethnocentric_rg-webfont.woff') format('woff');
 }
 
 h2 {
@@ -18,6 +18,10 @@ hr {
     margin-right: auto;
     border-style: inset;
     border-width: 2px;
+}
+
+p, li{
+    font-size:20px;
 }
 
 .html{
@@ -38,14 +42,23 @@ hr {
 .msgbtn{
 	background-color: white;
     border: none;
-    color: #ba0000;
+    color: #D2262D;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 28px;
+    border-radius: 8px;
+    font-size: 34px;
     margin: 8px;
     cursor: pointer;
     width: 30%;
-    height: 25%;
+    height: 205px;
+}
+
+#logo{
+    height:70px;
+}
+
+#logo_text{
+    height:40px;
 }
