@@ -3,24 +3,38 @@
 		public function register($enc_password){
 			// User data array
 			$data = array(
-				'name' => $this->input->post('name'),
-				'email' => $this->input->post('email'),
-				'username' => $this->input->post('username'),
-				'password' => $enc_password,
-				'zipcode' => $this->input->post('zipcode')
+				"name" => $this->input->post('name'),
+				"email" => $this->input->post('email'),
+				"username" => $this->input->post('username'),
+				"password" => $enc_password,
+				"zipcode" => $this->input->post('zipcode')
 			);
 
+			//print_r($data);
+			//exit;
+
 			//Insert user into database
-			return $this->db->insert('users', $data);
+			$connection = new MongoClient();
+			$collection = $connection->pcrepairutah->customer;
+			return $collection->insert($data);
+			//return $this->mongo_db->insert('customer', $data);
 		}
 
 		//Log in user
 		public function login($username, $password){
 			//Validate login info
-			$this->db->where('username', $username);
-			$this->db->where('password', $password);
+			$connection = new MongoClient();
+			$collection = $connection->pcrepairutah->customer;
 
-			$result = $this->db->get('users');
+			$cursor = $collection->find(array(), array("username" => $username, "password" => $password));
+			$result = iterator_to_array($cursor);
+			var_dump($result);
+			exit;
+
+			//$this->db->where('username', $username);
+			//$this->db->where('password', $password);
+
+			//$result = $this->db->get('users');
 
 			if($result->num_rows() === 1){
 				return $result->row(0)->id;

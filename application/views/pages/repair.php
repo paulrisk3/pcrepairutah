@@ -1,4 +1,4 @@
-<img src="assets/images/back_to_school.PNG" alt="Back to School" style="width:100%;">
+<img src="assets/images/back_to_school.png" alt="Back to School" style="width:100%;">
 
 <h2>Computer need fixing?</h2>
 <div>

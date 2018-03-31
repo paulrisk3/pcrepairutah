@@ -2,9 +2,9 @@
 	class Users extends CI_Controller{
 		public function register(){
 			//Check login
-			if(!$this->session->userdata('logged_in')){
-				redirect('users/login');
-			}
+			//if(!$this->session->userdata('logged_in')){
+			//	redirect('users/login');
+			//}
 			
 			$data['title'] = 'Sign up';
 
